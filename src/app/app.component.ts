@@ -9,12 +9,17 @@ import { ListaDeCompraService } from 'src/service/lista-de-compra.service';
 })
 export class AppComponent implements OnInit{
   title = 'life-cycle';
-  listaDeCompra!: Array<Item>
+  listaDeCompra!: Array<Item>;
+  itemParaSerEditado!: Item;
   constructor(private listaService:ListaDeCompraService){
 
   }
   ngOnInit(): void {
     this.listaDeCompra = this.listaService.getListaDeCompra();
+  }
+
+  editarItem(item:Item){
+    this.itemParaSerEditado = item;
   }
 
 }
