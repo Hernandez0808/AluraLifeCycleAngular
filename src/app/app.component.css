@@ -16,9 +16,9 @@
   }
   
   .lista h4 {
-    border-bottom: 1px solid blue;
+    /* border-bottom: 1px solid blue; */
     padding-bottom: 1rem;
-    border-style: none none dashed none;
+    /* border-style: none none dashed none; */
     font-family: 'Mansalva', sans-serif;
     color: #4574E3;
   }
@@ -65,8 +65,31 @@
   .date {
     justify-self: start;
     grid-area: date;
+
   }
   .line-through {
     text-decoration: line-through;
+  }
+
+  .content-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-lista{
+    align-items: center;
+    border-bottom:  1px solid blue;
+    border-style:  none none dashed none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+
+  }
+
+  .btn-header{
+    background-color: transparent;
+    border: 1px solid #4574e3;
+    padding: 1px 9px;
+    border-radius: 9px;
   }
   

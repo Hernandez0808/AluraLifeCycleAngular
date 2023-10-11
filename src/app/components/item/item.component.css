@@ -46,6 +46,7 @@
     grid-area: date;
     margin-top: .5rem;
     margin-left: .5rem;
+    font-size: 0.7rem;
   }
   .line-through {
     text-decoration: line-through;

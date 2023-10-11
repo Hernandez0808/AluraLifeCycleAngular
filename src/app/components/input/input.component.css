@@ -1,9 +1,15 @@
+
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 0.7rem !important;
+}
+
 .add-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .3rem;
     padding: 1rem;
+
   }
   
   .add-item input {
